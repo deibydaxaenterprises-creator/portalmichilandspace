@@ -2,7 +2,7 @@
 const DISCORD_ADMIN = "dazagroupglobal";
 const DISCORD_INVITE = "https://discord.gg/DNbKMrwn";
 
-// ===== SERVER STATUS (Bedrock - puerto 25780) =====
+// ===== SERVER STATUS (Bedrock - puerto 50030) =====
 // Ahora usa tu propio Cloudflare Worker (mucho más rápido y preciso)
 const STATUS_API = "https://michiland-status.deibydaxa-enterprises.workers.dev";
 const CHECK_INTERVAL = 2000; // cada 2 segundos
