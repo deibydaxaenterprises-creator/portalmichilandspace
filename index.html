@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio | Michiland Space</title>
+    <link rel="icon" href="logo.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;800&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="particles"></div>
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo-area">
+                <img src="logo.png" alt="Michiland Space">
+                <span class="logo-text">MICHILAND SPACE</span>
+            </a>
+            <nav class="nav-links">
+                <a href="index.html" class="active">Inicio</a>
+                <a href="comunidad.html">Comunidad</a>
+                <a href="eventos.html">Eventos</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="https://tienda.michiland.space" class="tienda-btn" target="_blank" rel="noopener">Tienda</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <img src="logo.png" alt="Logo" class="hero-logo">
+        <h1>MICHILAND SPACE</h1>
+        <p>Servidor exclusivo de Minecraft Bedrock Edition. Una experiencia profesional y personaliza para nuestra comunidad.</p>
+        <div class="category-badge">SERVIDOR BEDROCK</div>
+        
+        <div class="server-status" id="server-status">
+            <span class="status-dot" id="status-dot"></span>
+            <span class="status-text" id="status-text">Comprobando...</span>
+            <span class="status-players" id="status-players"></span>
+        </div>
+
+        <button type="button" id="refresh-status-btn" class="refresh-status-btn">ACTUALIZAR STATUS</button>
+    </section>
+    <div class="container">
+        <h2 class="section-title">Categorías</h2>
+        <div class="categories-grid">
+            <a href="comunidad.html" class="category-card"><img src="images/icons/icon_comunidad.png" alt="Comunidad"><h3>COMUNIDAD</h3><p>Links y redes oficiales</p></a>
+            <a href="eventos.html" class="category-card"><img src="images/icons/icon_eventos.png" alt="Eventos"><h3>EVENTOS</h3><p>Torneos y actividades</p></a>
+            <a href="contacto.html" class="category-card"><img src="images/icons/icon_contacto.png" alt="Contacto"><h3>CONTACTO</h3><p>Soporte y atención</p></a>
+            <a href="https://tienda.michiland.space" class="category-card" target="_blank" rel="noopener"><img src="images/icons/icon_tienda_cat.png" alt="Tienda"><h3>TIENDA</h3><p>Productos oficiales</p></a>
+        </div>
+        <div class="info-section">
+            <div class="info-box">
+                <h3>💬 Soporte</h3>
+                <p>¿Tienes algún problema o necesitas ayuda? Nuestro equipo de soporte está disponible para ayudarte y resolver tus dudas.</p>
+            </div>
+            <div class="info-box">
+                <h3>🎮 Bedrock</h3>
+                <p>Exclusivo para Minecraft Bedrock Edition. Siempre actualizado a la versión más reciente disponible.</p>
+            </div>
+            <div class="info-box">
+                <h3>🚀 Servidor</h3>
+                <p>IP: <strong style="color:var(--purple-light)">michiland.space</strong></p>
+                <p style="margin-top:6px">Puerto: <strong style="color:var(--purple-light)">50000</strong></p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <img src="logo.png" alt="Logo" class="logo-small">
+        <p><strong>Michiland Space</strong> — Servidor Bedrock</p>
+        <p>No estamos afiliados con Mojang AB ni Microsoft.</p>
+        <p style="margin-top: 8px; opacity: 0.7;">© 2026 Michiland Space</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
